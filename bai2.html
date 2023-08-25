@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        for (i = 0; i < 100; i++) {
+            let a = +prompt("mời nhập thông tin nhiêt độ hiện tại");
+            if (a > 100) {
+                alert("bạn hãy giảm nhiệt độ");
+            } else if (a < 20) {
+                alert(" bạn hãy tăng nhiệt độ");
+            } else if (a >= 20 && a <= 100) {
+                alert("nhiệt độ bình thường");
+                break;
+            }
+        }
+    </script>
+</body>
+
+</html>

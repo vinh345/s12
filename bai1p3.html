@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let number = +prompt("moi nhap so cua ban");
+        let count = 0;
+        for (let a = 0; a <= number; a++) {
+            for (i = 2; i <= a; i++) {
+                if (a % i == 0) {
+                    count++;
+                }
+            }
+            if (count == 1) {
+                console.log(`${a} la so nguyen to`);
+            }
+            count = 0;
+        }
+
+
+
+    </script>
+</body>
+
+</html>
